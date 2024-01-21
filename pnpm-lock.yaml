@@ -43,8 +43,8 @@ devDependencies:
     specifier: 4.9.2
     version: 4.9.2
   '@openzeppelin/contracts-upgradeable':
-    specifier: 4.9.2
-    version: 4.9.2
+    specifier: 4.9.3
+    version: 4.9.3
   '@sentry/hub':
     specifier: ^7.56.0
     version: 7.86.0
@@ -1419,8 +1419,8 @@ packages:
       hardhat: 2.15.0(ts-node@10.9.2)(typescript@5.3.3)
     dev: true
 
-  /@openzeppelin/contracts-upgradeable@4.9.2:
-    resolution: {integrity: sha512-siviV3PZV/fHfPaoIC51rf1Jb6iElkYWnNYZ0leO23/ukXuvOyoC/ahy8jqiV7g+++9Nuo3n/rk5ajSN/+d/Sg==}
+  /@openzeppelin/contracts-upgradeable@4.9.3:
+    resolution: {integrity: sha512-jjaHAVRMrE4UuZNfDwjlLGDxTHWIOwTJS2ldnc278a0gevfXfPr8hxKEVBGFBE96kl2G3VHDZhUimw/+G3TG2A==}
     dev: true
 
   /@openzeppelin/contracts@4.9.2:
@@ -4955,7 +4955,7 @@ packages:
     resolution: {integrity: sha512-iNZ576iTOGcfllftB73cPB5AN+XUQAT/T8xzsILsghXC1o8gJUqe3RHlcDqagu+biFpYQ61KQrZZJza8eRSYqw==}
     deprecated: Deprecated in favor of '@metamask/eth-sig-util'
     dependencies:
-      ethereumjs-abi: git@github.com+ethereumjs/ethereumjs-abi/ee3994657fa7a427238e6ba92a84d0b529bbcde0
+      ethereumjs-abi: git/github.com+ethereumjs/ethereumjs-abi/ee3994657fa7a427238e6ba92a84d0b529bbcde0
       ethereumjs-util: 5.2.1
     dev: true
 
@@ -11279,7 +11279,7 @@ packages:
       ethers: 5.7.2
     dev: true
 
-  git@github.com+ethereumjs/ethereumjs-abi/ee3994657fa7a427238e6ba92a84d0b529bbcde0:
+  git/github.com+ethereumjs/ethereumjs-abi/ee3994657fa7a427238e6ba92a84d0b529bbcde0:
     resolution: {commit: ee3994657fa7a427238e6ba92a84d0b529bbcde0, repo: git@github.com:ethereumjs/ethereumjs-abi.git, type: git}
     name: ethereumjs-abi
     version: 0.6.8
